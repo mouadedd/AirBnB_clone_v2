@@ -21,7 +21,7 @@ def c_text(text):
     """ Display C + message """
     message = text.replace('_', ' ')
     #return f" C {message}"
-    'C %s' % message
+    return 'C %s' % message
 
 
 if __name__ == '__main__':
